@@ -1,5 +1,5 @@
 
-const PRODUCT = {name:"EvolveVision", price:2499.90};
+const PRODUCT = {name:"EvolveVision", price:3999.90};
 let cart = JSON.parse(localStorage.getItem("evolve_cart") || "[]");
 
 const money = v => v.toLocaleString("pt-BR",{style:"currency",currency:"BRL"});
